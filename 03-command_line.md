@@ -28,7 +28,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> >'ls' #
+> >'ls' #list directory, Windows: dir
+'ls -a' #list all files
+'ls -l' #list long format (include permissions)
+'ls-lh' #list long format with file size
+'ls -lah' #list long format of all files and file size??
+'ls -t' #sort by time and date
+'ls -Glp' #
 
 ---
 
