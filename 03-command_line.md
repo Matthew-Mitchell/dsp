@@ -28,7 +28,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> >'ls' #list directory, Windows: dir
+> >'ls' #list directory, Windows: dir \n
 'ls -a' #list all files, . current folder ..parent folder
 'ls -l' #list long format (include permissions)
 'ls-lh' #list long format with file size
