@@ -13,7 +13,11 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+'cd' #change directory  
+'cd ..' #change directory up one folder  
+'cd -' #change directory to previous working directory  
+'mkdir <foldername>' #make a new folder/directory  
+
 
 ---
 
@@ -35,13 +39,11 @@ What do the following commands do:
 'ls-lh' #list long format with file size  
 'ls -lah' #list long format of all files and file size??  
 'ls -t' #sort by time and date  
+
+And some more notes:
 'ls -s' #list files sorted by size  
 'ls -r' #list files in reverse specified order  
-'ls -Glp' #  
-'cd' #change directory  
-'cd ..' #change directory up one folder  
-'cd -' #change directory to previous working directory  
-'mkdir <foldername>' #make a new folder/directory  
+
 
 ---
 
