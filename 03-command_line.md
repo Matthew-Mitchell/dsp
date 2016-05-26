@@ -29,19 +29,19 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-'ls' #list directory, Windows: dir 
-'ls -a' #list all files, . current folder ..parent folder
-'ls -l' #list long format (include permissions)
-'ls-lh' #list long format with file size
-'ls -lah' #list long format of all files and file size??
-'ls -t' #sort by time and date
-'ls -s' #list files sorted by size
-'ls -r' #list files in reverse specified order
-'ls -Glp' #
-'cd' #change directory
-'cd ..' #change directory up one folder
-'cd -' #change directory to previous working directory
-'mkdir <foldername>' #make a new folder/directory
+'ls' #list directory, Windows: dir   
+'ls -a' #list all files, . current folder ..parent folder  
+'ls -l' #list long format (include permissions)  
+'ls-lh' #list long format with file size  
+'ls -lah' #list long format of all files and file size??  
+'ls -t' #sort by time and date  
+'ls -s' #list files sorted by size  
+'ls -r' #list files in reverse specified order  
+'ls -Glp' #  
+'cd' #change directory  
+'cd ..' #change directory up one folder  
+'cd -' #change directory to previous working directory  
+'mkdir <foldername>' #make a new folder/directory  
 
 ---
 
