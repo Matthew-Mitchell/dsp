@@ -55,7 +55,7 @@ Here's your first chance to practice this:
 
 What is your favorite [emoji](http://www.emoji-cheat-sheet.com/)?
 
-Why use an emoji? I have real emotions.
+Why use an emoji? I have real emotions.:smile_cat:
 
 
 
