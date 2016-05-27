@@ -55,7 +55,6 @@ What do the following commands do:
 'ls -t' #sort by time and date  
 
 
-And some more notes:
 
 
 ---
