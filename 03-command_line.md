@@ -76,7 +76,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Run commands on the output from other command line windows/functions.  
+
+find *.txt|xargs rm  
 
  
 
