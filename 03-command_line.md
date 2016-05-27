@@ -67,6 +67,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 'ls -s' #list files sorted by size  
 'ls -r' #list files in reverse specified order  
 'ls -d' #list only directories  
+'ls -u' #list files by access time  
+'ls -c' #list files by file timestamp  
+
 
 ---
 
