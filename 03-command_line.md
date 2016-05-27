@@ -45,9 +45,7 @@ What do the following commands do:
 
 
 And some more notes:
-'ls -s' #list files sorted by size  
-'ls -r' #list files in reverse specified order  
-'ls -d' #list only directories
+
 
 ---
 
@@ -55,8 +53,9 @@ And some more notes:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+'ls -s' #list files sorted by size  
+'ls -r' #list files in reverse specified order  
+'ls -d' #list only directories
 ---
 
 ###Q4.  Xargs   
