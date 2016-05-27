@@ -25,6 +25,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 'rm filename' #remove specified files  
 'rm *' #reomove all files within current directory  
 'ctrl u' #clears current line and moves cursor to start of line  
+'ctrl r' #search through previous commands  
+'ctrl a' #move cursor to beginning of line  
+'ctrl e' #move curosr to end of line  
+
 
 
 
