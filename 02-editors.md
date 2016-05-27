@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->>I am currently using VIM. I downloaded both it and Emacs and am dabbling/exploring both interfaces.
+I am currently using VIM. I downloaded both it and Emacs and am dabbling/exploring both interfaces. I chose VIM after seeing others discussing it on SLACK and after doing some brief research on my own. VIM seems like a simple interface that will very efficient using the normal, insert and visual modes. Thus far I have mastered some basic commands such as moving through the editor in normal mode using hjkl, and switching to insert mode using iIrR. I am continuing to learn more.
 
 --
 
@@ -67,6 +67,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I am currently using VIM. I downloaded both it and Emacs and am dabbling/exploring both interfaces.
+I am currently using VIM. I downloaded both it and Emacs and am dabbling/exploring both interfaces. I have explored VIM more in normal mode and insert mode and am just playing with visual mode more now. I also have some interest in Atom after seeing Matt Daniels using it at the Meetup on Wednesday night but have yet to explore its functionality and am currently sticking with VIM due to its simple yet highly efficient shortcuts.
 
  
