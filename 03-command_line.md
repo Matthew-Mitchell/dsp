@@ -43,10 +43,11 @@ What do the following commands do:
 'ls -lah' #list long format of all files and file size??  
 'ls -t' #sort by time and date  
 
+
 And some more notes:
 'ls -s' #list files sorted by size  
 'ls -r' #list files in reverse specified order  
-
+'ls -d' #list only directories
 
 ---
 
