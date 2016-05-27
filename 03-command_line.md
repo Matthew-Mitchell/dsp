@@ -17,6 +17,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 'cd ..' #change directory up one folder  
 'cd -' #change directory to previous working directory  
 'mkdir <foldername>' #make a new folder/directory  
+'pwd' #print working directory
+'ff' #find files anywhere in the system
+'ps -u yourusername' #lists your current processes
 
 
 ---
