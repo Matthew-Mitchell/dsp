@@ -52,8 +52,12 @@ Did you install Python 2 or 3? Why?
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> On windows, you can simply open command prompt and type 'Python'.
-
+>> Simply type 'python'. The current installed version of Python is then displayed. My current terminal produced the following:  
+Python 2.7.10 |Anaconda 2.3.0 (x86_64)| (default, May 28 2015, 17:04:42) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+Anaconda is brought to you by Continuum Analytics.
+Please check out: http://continuum.io/thanks and https://binstar.org
  
 
 
