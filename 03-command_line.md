@@ -66,7 +66,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 'ls -s' #list files sorted by size  
 'ls -r' #list files in reverse specified order  
-'ls -d' #list only directories
+'ls -d' #list only directories  
+
 ---
 
 ###Q4.  Xargs   
