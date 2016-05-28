@@ -46,7 +46,7 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> I have installed both Python 2 and 3 on my computer. Some pet peeves I have is that print is now a function and raw_input has been changed to simply input.
+>> I currently have Python 2.7 installed but am looking to transition to 3.5. I originally began using Python 2 versions about a year ago and was initially annoyed with syntax changes including making print and raw_input. It seems to me that Python 3 is stronger than ever, and will continue to garner more support going forward.
 
 ###Q2. Which Python Version Installed   
 
