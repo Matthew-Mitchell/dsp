@@ -78,7 +78,7 @@ What does `xargs` do? Give an example of how to use it.
 
 Run commands on the output from other command line windows/functions.  
 
-find *.txt|xargs rm  
+find *.txt|xargs rm  #remove all .txt documents from the current directory
 
  
 
