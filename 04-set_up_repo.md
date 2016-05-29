@@ -100,6 +100,8 @@ Go to your terminal. If you type `$ git status`, you should get a message like t
 
 ![gst](img/git_status.png)
 
+Ok now I'm editing this .md file on my local computer. Afterwards I'm going to stage this version and eventually commit it to the repository which will in turn be synced and shared with github through a pull request....I think.
+
 This means that you have **modified** the files that appear there. This is what is called the **staging** area. Any files you modify will appear here. 
 
 
