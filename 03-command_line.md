@@ -13,6 +13,7 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
+>>>  
 'cd' #change directory  
 'cd ..' #change directory up one folder  
 'cd -' #change directory to previous working directory  
@@ -29,7 +30,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 'ctrl a' #move cursor to beginning of line  
 'ctrl e' #move curosr to end of line  
 
-THis is a test to see whether I have successfully figured out how to open a filethrough the command line, edit it with vi and then commit those changes while still in the command line to github. Overall this would streamline many processes making my work more efficient and streamlined.
+This is a test to see whether I have successfully figured out how to open a filethrough the command line, edit it with vi and then commit those changes while still in the command line to github. Overall this would streamline many processes making my work more efficient and streamlined. This is starting to get easier!
 
 
 
@@ -47,7 +48,7 @@ What do the following commands do:
 `ls -lah`  
 `ls -t`  
 `ls -Glp`  
-
+>>>
 'ls' #list directory, Windows: dir   
 'ls -a' #list all files, . current folder ..parent folder  
 'ls -l' #list long format (include permissions)  
