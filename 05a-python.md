@@ -30,10 +30,10 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> Lambda allows one to define a temporary "throw-away" function. This allows one to write more concise code by embedding functions. An example of using lambda within sorted is useful when trying to sort a tuple or nested list. Here is an example involving a mock database:
 
->>>basic_info=[('Matt','Queens',26),('Jordan','Queens',27),('Amit','Manhattan',32)]
+>>>basic_info=[('Matt','Queens',26),('Jordan','Queens',27),('Amit','Manhattan',32)]  
 >>>sorted(basic_info,key=lambda age: age[2])
 
-In this case the tuple is already sorted by age, but in general the lambda function would allow sorted to arrange the entries by the jth entry of every row.
+>>In this case the tuple is already sorted by age, but in general the lambda function would allow sorted to arrange the entries by the jth entry of every row.
 
 ---
 
@@ -41,25 +41,21 @@ In this case the tuple is already sorted by age, but in general the lambda funct
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> List comprehensions allow one to loop a function over a list, or apply a function to certain elements of a list. Similarly, the map function itself applies a function to every ith element of a list, while the filter function apply a function to all elements of a list that meets a certain criterion and returns a list of the results that were passed through the function.
-
+>> List comprehensions allow one to loop a function over a list, or apply a function to certain elements of a list. Similarly, the map function itself applies a function to every ith element of a list, while the filter function apply a function to all elements of a list that meets a certain criterion and returns a list of the results that were passed through the function.  
 A basic mathematical example might be generating the first 10 perfect squares:
->>>y= (i**2 for i in range (1,11))
+>>>y= (i**2 for i in range (1,11))  
 >>>print list(y)
 
-It should be noted here that simply trying 'print y' yields a generator object not the desired list itself. I am still unsure of why this is.
+>>It should be noted here that simply trying 'print y' yields a generator object not the desired list itself. I am still unsure of why this is.
 
-To produce the same list of the first 10 perfect squares using map (and lambda) one could do the following:
->>>y=map(lambda x:x**2,range(1,11))
->>>print y
+>>To produce the same list of the first 10 perfect squares using map (and lambda) one could do the following:  
+>>>y=map(lambda x:x**2,range(1,11))  
+>>>print y  
+>>A really basic example of list comprehension versus filter might be generating the multiples of five from 1 to 100:  
+>>>y=(y for y in range(1,101) if y%5==0)  
+>>>print y  
+>>>print filter(lambda x:x%5==0,range(1,101))  
 
-A really basic example of list comprehension versus filter might be generating the multiples of five from 1 to 100:
-
->>>y=(y for y in range(1,101) if y%5==0)
->>>print y
-
-
->>>print filter(lambda x:x%5==0,range(1,101)
 ---
 
 ###Complete the following problems by editing the files below:
