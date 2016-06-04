@@ -70,6 +70,7 @@ def fix_start(s):
 
 
 def mix_up(a, b):
+    return b[0:3]+a[2:]+' '+a[0:3]+b[:]
     """
     Given strings a and b, return a single string with a and b
     separated by a space '<a> <b>', except swap the first 2 chars of
@@ -88,6 +89,12 @@ def mix_up(a, b):
 
 
 def verbing(s):
+    if len(s)>2 and s[-3:]=='ing':
+        return s+'ly'
+    elif len(s)>2:
+        return s+'ing'
+    else:
+        return s
     """
     Given a string, if its length is at least 3, add 'ing' to its end.
     Unless it already ends in 'ing', in which case add 'ly' instead.
@@ -105,6 +112,10 @@ def verbing(s):
 
 
 def not_bad(s):
+    if s.find('bad')>s.find('not'):
+        return s[:s.find('not')]+'good'+s[s.find('bad')+3:]
+    else:
+        return s
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
@@ -125,6 +136,8 @@ def not_bad(s):
 
 
 def front_back(a, b):
+        return a[:len(a)/2+len(a)%2]+b[:len(b)/2+len(b)%2]+a[len(a)/2+len(a)%2:]+b[len(b)/2+len(b)%2:]
+        #I began writing this code using temp variables for the len(a) and len(b) and then ended up consolidating the code in to one line but am unsure as to how legible this is.
     """
     Consider dividing a string into two halves. If the length is even,
     the front and back halves are the same length. If the length is
