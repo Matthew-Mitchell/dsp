@@ -51,6 +51,7 @@ A basic mathematical example might be generating the first 10 perfect squares:
 >>To produce the same list of the first 10 perfect squares using map (and lambda) one could do the following:  
 >>>y=map(lambda x:x**2,range(1,11))  
 >>>print y  
+
 >>A really basic example of list comprehension versus filter might be generating the multiples of five from 1 to 100:  
 >>>y=(y for y in range(1,101) if y%5==0)  
 >>>print y  
