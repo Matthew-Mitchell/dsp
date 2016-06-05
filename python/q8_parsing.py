@@ -6,7 +6,19 @@
 
 # The below skeleton is optional.  You can use it or you can write the script with an approach of your choice.
 
+fhand=open('football.csv')
+data=[]
+linecount=0
+for line in fhand:
+    linecount+=1
+    if linecount>1:
+        line=line.rstrip()
+        data.append(line.split(','))
+data=sorted(data,key=lambda data: abs(int(data[5])-int(data[6])))
+print data[0][0]
 
+#Not the most elegant solution but up and running. I want to learn more about the csv module but wasn't finding
+#the documentation online to be overly helpful. Directions to  further resources are much appreciated.
 import csv
 
   def read_data(data):
