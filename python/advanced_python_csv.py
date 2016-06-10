@@ -7,6 +7,5 @@ with open('faculty.csv', 'rb') as f:
         emailist.append(row[' email'])
         
 with open('emails.csv', 'wb') as csvfile:
-    writer = csv.writer(csvfile, delimiter=' ', quoting=csv.QUOTE_MINIMAL)
-    for row in emailist:
-        writer.writerow(row)
+    writer = csv.writer(csvfile, delimiter=',', quotechar=',', quoting=csv.QUOTE_MINIMAL)
+    writer.writerow(emailist)
