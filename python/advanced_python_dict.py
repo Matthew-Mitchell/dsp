@@ -13,7 +13,10 @@ for row in rowdata[1:]:
         directory[row[0].split()[-1]]=directory.get(row[0].split()[-1])+[row[1:]]
     except:
         directory[row[0].split()[-1]]=[row[1:]]
-print(directory)
+for x in range(0,3):
+    print directory.keys()[x],directory.values()[x]
+
+
 
 #Question 7
 import csv
@@ -31,7 +34,9 @@ for row in rowdata[1:]:
         directory[firstlast]=directory.get(firstlast)+[row[1:]]
     except:
         directory[firstlast]=[row[1:]]
-print(directory)
+for x in range(0,3):
+    print directory.keys()[x],directory.values()[x]
+
 
 #Q8
 import csv
