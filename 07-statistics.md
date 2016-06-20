@@ -53,6 +53,8 @@ Cohen's D is an example of effect size.  Other examples of effect size are:  cor
 
 You will see effect size again and again in results of algorithms that are run in data science.  For instance, in the bootcamp, when you run a regression analysis, you will recognize the t-statistic as an example of effect size.
 
+>> Cohen's D was approximately -0.089 standard deviations when comparing the total birthweight of firstborn babies versus others. This is certainly more substantial than the difference in pregnancy length which was 0.029 standard deviations for the same two groups but is still a minor effect overall. Based on this statistic, there is little difference in the weight between first borns babies versus others.
+
 ###Q2. [Think Stats Chapter 3 Exercise 1](statistics/3-1-actual_biased.md) (actual vs. biased)
 This problem presents a robust example of actual vs biased data.  As a data scientist, it will be important to examine not only the data that is available, but also the data that may be missing but highly relevant.  You will see how the absence of this relevant data will bias a dataset, its distribution, and ultimately, its statistical interpretation.
 
